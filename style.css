@@ -1,0 +1,145 @@
+*
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* ===== GLOBAL STYLING ===== */
+html{
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+/* ========================= */
+
+
+/* ======= Global CSS Grid ======== */
+.global-grid{
+    background-color: rgb(10, 187, 241);
+  
+    font-size: 3rem;
+
+    display: grid;
+    height: 100vh;
+    grid-gap: .5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "intro"
+    "roadmap"
+    "projects"
+    "challenges"
+    "contact";
+  }
+
+.intro{
+    background-color: #4BA3C3;;
+
+    grid-area: intro;
+}
+
+.roadmap{
+    background-color: #90E39A;
+
+    grid-area: roadmap;
+}
+
+.projects{
+    background-color: #16C172;
+
+    grid-area: projects;
+}
+
+.challenges{
+    background-color: #FF715B;
+
+    grid-area: challenges;
+}
+
+.contact{
+    background-color:#175676;
+
+    grid-area: contact;
+}
+
+
+
+
+
+
+
+
+
+
+/* ===== Title ===== */
+/* ========================= */
+
+/*My palette::*/
+.dummyClass{
+
+color: #D7DEDC;
+color: #CFCFCd;
+color: #9A879D;
+color: #7A3B69;
+color: #563440;
+color: #067BC2;
+color: #84BCDA;
+color: #ECC30B;
+color: #F37748;
+color: #D56062;
+color: #696D7D;
+color: #6F9283;
+color: #8D9F87;
+color: #CDC6A5;
+color: #F0DCCA;
+color: #0A369D;
+color: #4472CA;
+color: #5E7CE2;
+color: #92B4F4;
+color: #CFDEE7;
+color: #D62839;
+color: #BA324f;
+color: #175676;
+color: #4BA3C3;
+color: #CCE6F4;
+color: #638475;
+color: #90E39A;
+color: #DDF093;
+color: #F6D0B1;
+color: #CE4760;
+color: #4C5454;
+color: #FF715B;
+color: #FFFFFF;
+color: #1EA896;
+color: #523F38;
+color: #2DE1FC;
+color: #2AFC98;
+color: #09E85E;
+color: #16C172;
+color: #214F4B;
+color: #201E1F;
+color: #FF4000;
+color: #FAAA8D;
+color: #FEEFDD;
+color: #50B2C0;
+color: #BF4E30;
+color: #C6CCB2;
+color: #093824;
+color: #E5EAFA;
+color: #78FECF;
+color: #E3C0D3;
+color: #95818D;
+color: #576066;
+color: #2C514C;
+color: #122932;
+}
