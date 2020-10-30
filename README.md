@@ -21,11 +21,12 @@ Me, myself, and I. If you'd like to re-use any of the code here for your own pur
 ## Changelog - Commits
 
 ### Main
-[001-0.0.1]:: Initial Commit >> Updated the readme with the proper information.
-[002-0.0.2]:: Skeleton >> Added the basic core components to the website.
-[003-0.0.3]:: Sections >> Added the basic sections to the website.
-[004-0.0.4]:: CSS Grid + Working Colors >> Added the CSS grid layout for MOBILE and the working colors to better differentiate the sections.
-[005-0.0.5]:: Profile Picture >> Added a square profile picture to the site. Working on nailing the mobile layout first.
+- [001-0.0.1]:: Initial Commit >> Updated the readme with the proper information.
+- [002-0.0.2]:: Skeleton >> Added the basic core components to the website.
+- [003-0.0.3]:: Sections >> Added the basic sections to the website.
+- [004-0.0.4]:: CSS Grid + Working Colors >> Added the CSS grid layout for MOBILE and the working colors to better differentiate the sections.
+- [005-0.0.5]:: Profile Picture >> Added a square profile picture to the site. Working on nailing the mobile layout first.
+- [006-0.0.6]:: Tweaked Layout >> Settled on a neo-morphic design. In the process of adding 'cards' to the site for the major sections.
 
 
 
