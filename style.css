@@ -65,16 +65,19 @@ h5{
 
 
 .intro{
-  background-color: #4BA3C3;;
+  background-color: #4BA3C3;
 
   grid-area: intro;
 
+  /*For absolute positioning of the children*/
+  position: relative;
+
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: 0rem;
-  margin-bottom: .5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   
-  padding: 1rem;
+  padding: 0rem;
 
   border-radius: 1rem;
   
@@ -88,24 +91,39 @@ h5{
 #pictureSection{
   grid-area: picture;
   
-  padding: 0rem;
-  background-color: #09E85E;
+  /*Padding controls border, margin controls size*/
+  padding: .3rem;
+  margin: 2rem;
+
+  background-color: #ddebf0;
+  border-radius: 50%;
 }
 #headshot{
+  display: block;
+  justify-content: center;
   max-width: 100%;
   border-radius: 50%;
-
-  padding-top: 1rem;
 }
 #name{
   grid-area: name;
-
-  background-color:red;
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 #flavorText{
   grid-area: flavor;
+  font-size: 2.0rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
 
-  background-color: purple;
+  border-radius: .5rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 
