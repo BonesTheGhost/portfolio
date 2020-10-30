@@ -45,7 +45,7 @@ h5{
 
 /* ======= Global CSS Grid ======== */
 .global-grid{
-    background-color: rgb(175, 210, 220);
+    background-color: rgb(225, 225, 230);
   
     font-size: 3rem;
 
@@ -65,7 +65,7 @@ h5{
 
 
 .intro{
-  background-color: #4BA3C3;
+  background-color: #f0f0f3;
 
   grid-area: intro;
 
@@ -83,7 +83,7 @@ h5{
   
   display: grid;
   grid-template-columns: .40fr .60fr;
-  grid-template-rows: .50fr .50fr;
+  grid-template-rows: .70fr .30fr;
   grid-template-areas: 
   "picture name"
   "picture flavor";
@@ -92,10 +92,13 @@ h5{
   grid-area: picture;
   
   /*Padding controls border, margin controls size*/
-  padding: .3rem;
-  margin: 2rem;
+  padding: .8rem;
+  margin-top: 3rem;
+  margin-right: 0rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
 
-  background-color: #ddebf0;
+  background-color: rgb(195, 195, 200);
   border-radius: 50%;
 }
 #headshot{
@@ -109,21 +112,29 @@ h5{
   font-size: 2.5rem;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
 }
 #flavorText{
   grid-area: flavor;
   font-size: 2.0rem;
   position: absolute;
-  top: 0;
+  top: 1rem;
   right: 0;
-  background-color: red;
+  background-color: #f0f0f3;
 
-  border-radius: .5rem;
+  border-radius: .3rem;
+
   padding-top: .3rem;
   padding-bottom: .3rem;
   padding-left: 1rem;
   padding-right: 1rem;
+
+  /*Inside Shadows*/
+  box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1) inset,
+  3px 3px 9px 0px rgba(174, 174, 192, 0.4),
+
+  -3px -3px 9px 0px rgba(174, 174, 192, 0.25) inset,
+  -3px 3px 9px 0px rgba(255, 255, 255, 1);
 }
 
 
@@ -217,7 +228,24 @@ h5{
 /* ===== Title ===== */
 /* ========================= */
 
-/*My palette::*/
+/*Current Palette*/
+#chosenPalette{
+
+  /*Egg shell primary*/
+  color: #F0F0F3;
+  color: rgb(240, 240, 243);
+
+  /*Accent color (shadow)*/
+  color: #AEAEC0;
+  color: rgb(174, 174, 192);
+
+  /*Pure white for reflection*/
+  color: #FFFFFF;
+  color: rgb(255, 255,255);
+
+}
+
+/*Palette Ideas::*/
 .dummyClass{
 
 color: #D7DEDC;
