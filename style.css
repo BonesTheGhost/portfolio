@@ -48,7 +48,6 @@ h5{
     background-color: rgb(225, 225, 230);
   
     font-size: 3rem;
-
     display: grid;
     height: 100vh;
     grid-gap: .5rem;
@@ -87,12 +86,16 @@ h5{
   grid-template-areas: 
   "picture name"
   "picture flavor";
+
+  /*Shadows and Accents Top Left, Bottom Right*/
+  box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
+  3px 3px 9px 0px rgba(174, 174, 192, 1);
 }
 #pictureSection{
   grid-area: picture;
   
   /*Padding controls border, margin controls size*/
-  padding: .8rem;
+  padding: .5rem;
   margin-top: 3rem;
   margin-right: 0rem;
   margin-bottom: 3rem;
@@ -129,7 +132,7 @@ h5{
   padding-left: 1rem;
   padding-right: 1rem;
 
-  /*Inside Shadows*/
+  /*Shadows and Accents*/
   box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1) inset,
   3px 3px 9px 0px rgba(174, 174, 192, 0.4),
 
@@ -140,7 +143,7 @@ h5{
 
 
 .roadmap{
-  background-color: rgb(200, 240, 250);
+  background-color: #F0F0F3;
 
   grid-area: roadmap;
   margin-left: 1rem;
@@ -151,24 +154,69 @@ h5{
   padding: 1rem;
 
   border-radius: 1rem;
+
+  /*Shadows and Accents Top Left, Bottom Right*/
+  box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
+  3px 3px 9px 0px rgba(174, 174, 192, 1);
+  
 }
 
 .projects{
-    background-color: #16C172;
+  background-color: #F0F0F3;
 
-    grid-area: projects;
+  grid-area: projects;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-bottom: .5rem;
+  
+  padding: 1rem;
+
+  border-radius: 1rem;
+
+  /*Shadows and Accents Top Left, Bottom Right*/
+  box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
+  3px 3px 9px 0px rgba(174, 174, 192, 1);
 }
 
 .challenges{
-    background-color: #FF715B;
+  background-color: #F0F0F3;
 
-    grid-area: challenges;
+  grid-area: challenges;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-bottom: .5rem;
+  
+  padding: 1rem;
+
+  border-radius: 1rem;
+
+  /*Shadows and Accents Top Left, Bottom Right*/
+  box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
+  3px 3px 9px 0px rgba(174, 174, 192, 1);
 }
 
 .contact{
-    background-color:#175676;
+  background-color:#F0F0F3;
 
-    grid-area: contact;
+  grid-area: contact;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-bottom: .5rem;
+  
+  padding: 1rem;
+  padding-bottom: 2rem;
+
+  border-radius: 1rem;
+
+  /*Shadows and Accents Top Left, Bottom Right*/
+  box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
+  3px 3px 9px 0px rgba(174, 174, 192, 1);
 }
 
 
