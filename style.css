@@ -20,12 +20,32 @@ body{
 a{
   text-decoration: none;
 }
+
+/* Mobile Version Defualt Values */
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h4{
+  font-size: 2rem;
+}
+h5{
+  font-size: 1.5rem;
+}
 /* ========================= */
 
 
 /* ======= Global CSS Grid ======== */
 .global-grid{
-    background-color: rgb(10, 187, 241);
+    background-color: rgb(175, 210, 220);
   
     font-size: 3rem;
 
@@ -45,27 +65,37 @@ a{
 
 
 .intro{
-    background-color: #4BA3C3;;
+  background-color: #4BA3C3;;
 
-    grid-area: intro;
-    display: grid;
-    grid-template-columns: .25fr .75fr;
-    grid-template-rows: .50fr .50fr;
-    grid-template-areas: 
-    "picture name"
-    "picture flavor";
+  grid-area: intro;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-bottom: .5rem;
+  
+  padding: 1rem;
+
+  border-radius: 1rem;
+  
+  display: grid;
+  grid-template-columns: .40fr .60fr;
+  grid-template-rows: .50fr .50fr;
+  grid-template-areas: 
+  "picture name"
+  "picture flavor";
 }
 #pictureSection{
   grid-area: picture;
   
-  padding: 1rem;
+  padding: 0rem;
   background-color: #09E85E;
 }
 #headshot{
   max-width: 100%;
   border-radius: 50%;
-  border: 5px;
-  border-color: red;
+
+  padding-top: 1rem;
 }
 #name{
   grid-area: name;
@@ -81,9 +111,17 @@ a{
 
 
 .roadmap{
-    background-color: #90E39A;
+  background-color: rgb(200, 240, 250);
 
-    grid-area: roadmap;
+  grid-area: roadmap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-bottom: .5rem;
+  
+  padding: 1rem;
+
+  border-radius: 1rem;
 }
 
 .projects{
