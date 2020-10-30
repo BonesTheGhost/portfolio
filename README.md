@@ -22,6 +22,8 @@ Me, myself, and I. If you'd like to re-use any of the code here for your own pur
 
 ### Main
 [001-0.0.1]:: Initial Commit >> Updated the readme with the proper information.
+[002-0.0.2]:: Skeleton >> Added the basic core components to the website.
+[003-0.0.3]:: Sections >> Added the basic sections to the website.
 
 
 
