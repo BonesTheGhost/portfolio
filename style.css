@@ -42,11 +42,43 @@ a{
     "contact";
   }
 
+
+
 .intro{
     background-color: #4BA3C3;;
 
     grid-area: intro;
+    display: grid;
+    grid-template-columns: .25fr .75fr;
+    grid-template-rows: .50fr .50fr;
+    grid-template-areas: 
+    "picture name"
+    "picture flavor";
 }
+#pictureSection{
+  grid-area: picture;
+  
+  padding: 1rem;
+  background-color: #09E85E;
+}
+#headshot{
+  max-width: 100%;
+  border-radius: 50%;
+  border: 5px;
+  border-color: red;
+}
+#name{
+  grid-area: name;
+
+  background-color:red;
+}
+#flavorText{
+  grid-area: flavor;
+
+  background-color: purple;
+}
+
+
 
 .roadmap{
     background-color: #90E39A;
@@ -71,6 +103,51 @@ a{
 
     grid-area: contact;
 }
+
+
+
+
+
+
+
+
+
+/* @MEDIA QUERIES */
+/* For desktop and tablet picture shenanigans.
+.intro{
+    background-color: #4BA3C3;;
+
+    grid-area: intro;
+    display: grid;
+    grid-template-columns: .25fr .75fr;
+    grid-template-rows: .50fr .50fr;
+    grid-template-areas: 
+    "picture name"
+    "picture flavor";
+}
+#pictureSection{
+  grid-area: picture;
+  
+  padding: 1rem;
+  background-color: #09E85E;
+}
+#headshot{
+  max-width: 100%;
+  border-radius: 50%;
+  border: 5px;
+  border-color: red;
+}
+#name{
+  grid-area: name;
+
+  background-color:red;
+}
+#flavorText{
+  grid-area: flavor;
+
+  background-color: purple;
+}
+*/
 
 
 
