@@ -32,6 +32,7 @@ Me, myself, and I. If you'd like to re-use any of the code here for your own pur
 - [008-0.0.8]:: Intro Card >> Much closer to the final style of the intro card. Utilizing a bright neutral palette with accents of light blue and grey.
 - [009-0.0.9]:: Applied Styling to All Sections.
 - [010-0.1.0]:: Added Adobe Myriad + Modified overall styling.
+- [011-0.1.1]:: Added Glass Effect >> Managed to find a simple solution for the glass effect that I was hoping for that meshes well with my neumorphism theme.
 
 
 
