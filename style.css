@@ -95,6 +95,8 @@ h5{
   /*Shadows and Accents Top Left, Bottom Right*/
   box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
   3px 3px 9px 0px rgba(174, 174, 192, 1);
+
+  animation: slide-in-right 1s;
 }
 #pictureSection{
   grid-area: picture;
@@ -154,7 +156,7 @@ h5{
 }
 
 
-
+/*===== Individual Sections =====*/
 .roadmap{
   background-color: #F0F0F3;
 
@@ -172,6 +174,7 @@ h5{
   box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
   3px 3px 9px 0px rgba(174, 174, 192, 1);
   
+  animation: slide-in-right 2s;
 }
 
 .projects{
@@ -191,6 +194,8 @@ h5{
   /*Shadows and Accents Top Left, Bottom Right*/
   box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
   3px 3px 9px 0px rgba(174, 174, 192, 1);
+
+  animation: slide-in-left 1.25s;
 }
 
 .challenges{
@@ -241,7 +246,9 @@ h5{
   padding-left: 1rem;
 }
 
-/*For the glass effect on the cards front*/
+
+
+/*===== For the glass effect on the cards front =====*/
 .glass{
 	/* background styles */
 	position: relative;
@@ -269,6 +276,49 @@ h5{
 .glass:hover{
 	background: linear-gradient(#073,#0fa);
 }
+/*=====================================================*/
+
+
+
+/* Fade in animations */
+@keyframes slide-in-left {
+  0% {
+    transform: translate3d(-500px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-in-slow {
+  0% {
+    transform: translate3d(-300px, 0, 0);
+  }
+  20% {
+    transform: translate3d(-300px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translate3d(500px, 0, 0);
+  }
+  30% {
+    transform: translate3d(500px, 0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
 
 
 
