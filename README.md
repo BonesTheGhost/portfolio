@@ -34,6 +34,7 @@ Me, myself, and I. If you'd like to re-use any of the code here for your own pur
 - [010-0.1.0]:: Added Adobe Myriad + Modified overall styling.
 - [011-0.1.1]:: Added Glass Effect >> Managed to find a simple solution for the glass effect that I was hoping for that meshes well with my neumorphism theme.
 - [012-0.1.2]:: Added sliding animation >> Animated the cards sliding in on page load. Will probably tweak these later for the larger versions of the site.
+- [013-0.1.3]:: EventHandler Fail >> Tried to implement an event handler for the pop out or flip functionality that I would like to implement to make the mobile version more viable for larger groups of information. However, for some reason the reference always returns null. Will look into it tomorrow!
 
 
 
