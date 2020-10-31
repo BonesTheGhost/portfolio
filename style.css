@@ -246,6 +246,15 @@ h5{
   padding-left: 1rem;
 }
 
+/*===== For the card pop animations =====*/
+#projects .popOut{
+  display: block;
+  position: absolute;
+  height: 80vh;
+}
+
+
+
 
 
 /*===== For the glass effect on the cards front =====*/
