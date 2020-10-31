@@ -31,6 +31,7 @@ Me, myself, and I. If you'd like to re-use any of the code here for your own pur
 - [007-0.0.7]:: Profile Picture with border >> Spent some time getting the profile picture to work well with the mobile version of the site. Finishing rough layout of the overall intro section.
 - [008-0.0.8]:: Intro Card >> Much closer to the final style of the intro card. Utilizing a bright neutral palette with accents of light blue and grey.
 - [009-0.0.9]:: Applied Styling to All Sections.
+- [010-0.1.0]:: Added Adobe Myriad + Modified overall styling.
 
 
 
