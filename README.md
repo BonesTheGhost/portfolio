@@ -36,6 +36,8 @@ Me, myself, and I. If you'd like to re-use any of the code here for your own pur
 - [012-0.1.2]:: Added sliding animation >> Animated the cards sliding in on page load. Will probably tweak these later for the larger versions of the site.
 - [013-0.1.3]:: EventHandler Fail >> Tried to implement an event handler for the pop out or flip functionality that I would like to implement to make the mobile version more viable for larger groups of information. However, for some reason the reference always returns null. Will look into it tomorrow!
 
+-[014-0.1.5]: nothing works >> Layout is broken, sizing is broken, text doesn't align.Theme looks decent but otherwise need to re-work this thing. For some reason the CSS grid is not behaving as I would expect it to on mobile, and all of the CSS animations that I want to include are so arbitrary that nothing works as predicted. Happy Halloween!
+
 
 
 ## License
